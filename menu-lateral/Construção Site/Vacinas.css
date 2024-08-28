@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+   background: rgba(243, 242, 242, 0.952);
+   width: 100vw;
+   height: 30vh;
+   box-shadow: 10px 0 4px rgb(134, 134, 134);
+   padding-top: 30px;
+}
+header h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.textoduvidas{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(110, 35, 133);
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 15px;
+}
+.aaaa{
+    text-decoration: none;
+    color: rgb(110, 35, 133);
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 120px;
+}
+h2{
+    font-weight: 800;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-top: 60px;
+    border-left: 4px solid rgb(92, 10, 139);
+    font-family: sans-serif;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 25%;
+    text-align: justify; 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    align-items: center;
+    text-align: justify;
+}
+.ftesto{
+    height: 25vh;
+    width: 50vw;
+    padding-left: 50px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding-bottom: 300px;
+    background: rgb(247, 238, 252);
+    border-radius: 20px;
+}
+.ftesto p{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 40px;
+    margin-top: -30%;
+    display: flex;
+}
+.sexto{
+    height: 35vh;
+    width: 50vw;
+    padding-left: 50px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding-bottom: 400px;
+
+}
+.sexto p{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 40px;
+    margin-top: -30%;
+    display: flex;
+}
+.ttexto{
+    height: 45vh;
+    width: 50vw;
+    padding-left: 50px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding-bottom: 400px;
+}
+.ttexto p{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 40px;
+    margin-top: -25%;
+    display: flex;
+}
+.qutexto{
+    height: 53vh;
+    width: 50vw;
+    padding-left: 50px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding-bottom: 600px;
+}
+.qutexto p{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 40px;
+    margin-top: -40%;
+    display: flex;
+}
+.primag img{
+border-radius: 20px;
+height: 300px;
+width: 500px;
+margin-left: 110%;
+display: flex;
+margin-top: 0px;
+size: 234px;
+cursor: pointer;
+transition: 0.5s;
+}
+.primag img:hover{
+    width: 550px;
+    height: 350px;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.segundaimg img{
+border-radius: 40000px;
+height: 200px;
+width: 300px;
+margin-left: 110%;
+display: flex;
+margin-top: 20px;
+size: 234px;
+cursor: pointer;
+transition: 1s;
+}
+.segundaimg img:hover{
+    width: 350px;
+    height: 250px;
+    transition: 0.5s;
+    opacity: 0.9; 
+}
+.terceiraimg img{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    margin-left: 110%;
+    display: flex;
+    margin-top: 20px;
+    size: 234px;
+    cursor: pointer; 
+    border-radius: 10px;
+    transition: 1s;
+}
+.terceiraimg img:hover{
+    width: 350px;
+    height: 250px;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.quartaimg img{
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    margin-left: 100%;
+    display: flex;
+    margin-top: 40px;
+    size: 234px;
+    cursor: pointer;
+    transition: 1s;
+}
+.quartaimg img:hover{
+    width: 450px;
+    height: 350px;
+    transition: 0.5s;
+    opacity: 0.9;
+}

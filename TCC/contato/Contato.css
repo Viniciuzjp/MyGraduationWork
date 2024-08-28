@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Mulish';
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.title{
+    margin-left: 80px;
+    margin-top: 150px;
+    color: white;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+
+
+h3{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 60px;
+    line-height: 50px;
+    margin-left: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    display: flex;
+    padding: 10px;
+    border: 4px;
+    border-radius: 50px blueviolet;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    margin-top: -10px;
+    font-size: 25px;
+    margin-left: 120px;
+    color: white;
+
+}
+
+img{
+    width: 580px;
+    margin-left: 28%;
+    transition: 0.7s;
+    border-radius: 30px;
+}
+
+img:hover{
+    width: 530px;
+    margin-left: 28%;
+    transition: 0.7s;
+    border-radius: 50px;
+}
+
+
+
+.butao{
+    margin-top: 200px;
+    margin-left: -450px;
+    display: flex;
+    font-size: 15px;
+    width: 350px;
+    color: blueviolet;
+    border-radius: 50px;
+    text-align: center;
+    border: 4px;
+    border-radius: 50px blueviolet;
+}
+
+.butao:hover{
+    color: blueviolet;
+}
+
+.tche{
+    height: 20px;
+    transition: 0.5s;
+    border: 4px;
+    border-radius: 50px blueviolet;
+    color: white;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.fundo{
+    background: url(images/ovid-19\ \(1\).jpg);
+    width: 100%;
+    background-size: cover;
+    height: 1000px;
+}
+
+.cor{
+    color: blueviolet;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Mulish';
+}
+
+form{
+    background-color: blueviolet;
+    height: 90px;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: white;
+    font-size: 27px;
+    padding: 5px;
+} 
+
+
+.blur{
+    backdrop-filter: blur(8px);
+    width: 700px;
+    padding-bottom: 50px;
+    border-radius: 100px;
+    padding-top: 20px;
+}

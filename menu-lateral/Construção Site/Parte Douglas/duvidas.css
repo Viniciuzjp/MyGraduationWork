@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(168, 25, 20);
+    height: 55px;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    transition: 1s;
+}
+
+.CABEÇALHO{
+    margin-left: 15%;
+    margin-top: -10px;
+    font-family: 'Mulish', sans-serif;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    color: rgba(0, 0, 0);
+    text-decoration: underline;
+    
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 1%;
+    background-color: black;
+}
+
+.duvidas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    height: 70px;
+    margin-top: 75px;
+    margin-left: 25%;
+    margin-right: 23%;
+    padding-top: 10px;
+    border-left: 4px solid rgb(223, 34, 27);
+    text-decoration: underline;
+}
+
+.resp p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 27%;
+    margin-right: 35%;
+    margin-bottom: -65px;
+    height: 165px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.rodape{
+    text-align: center;
+    background-color: rgb(168, 25, 20);
+    height: 40px;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    padding-top: 70px;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+footer:hover{
+    padding-top: 350px;
+    background-color: rgb(168, 25, 20);
+    transition: 0.7s;
+    border-radius: 50px;
+}
+
+footer{
+    transition: 1s;
+}
