@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <div class="cardeees">
+    <div class="container">
+        <div class="partecima" id="partecima" onmouseover="mostrartexto()" onmouseout="removertexto()">
+            <h2 id="btn-txt">Boston Celtics</h2>
+            <img src="img/channels4_profile.jpg" alt="">
+        </div>
+        <div class="partebaixo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque saepe quis vel praesentium non. Omnis, quibusdam! Quas at amet tempora nam voluptas impedit cum laudantium, nostrum ullam! Eos, quibusdam.</p>
+        </div>
+        <div class="localizacao">
+            <p>Rua Santiago Bernabeu Dr. Camp Nou</p>
+        </div>
+    </div>
+
+
+
+    <div class="container1">
+        <div class="partecima1" id="partecima1" onmouseover="mostrartexto1()" onmouseout="removertexto1()">
+            <h2 id="btn-txt1">Boston Celtics</h2>
+            <img src="img/channels4_profile.jpg" alt="">
+        </div>
+        <div class="partebaixo1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloremque saepe quis vel praesentium non. Omnis, quibusdam! Quas at amet tempora nam voluptas impedit cum laudantium, nostrum ullam! Eos, quibusdam.</p>
+        </div>
+        <div class="localizacao1">
+            <p>Rua Santiago Bernabeu Dr. Camp Nou</p>
+        </div>
+    </div>
+    <script>
+
+
+    const btn = document.getElementById('btn-txt')
+    const parte = document.getElementById('partecima')
+
+    function mostrartexto(){
+        btn.style.fontSize = '30px';
+        btn.style.color = 'white';
+    }
+    function removertexto(){
+        btn.style.color = '';
+    }
+
+
+    const btn1 = document.getElementById('btn-txt1')
+    const parte1 = document.getElementById('partecima1')
+
+    function mostrartexto1(){
+        btn1.style.fontSize = '30px';
+        btn1.style.color = 'white';
+    }
+    function removertexto1(){
+        btn1.style.color = '';
+    }
+
+
+    
+    </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+html: 
+
+   <div class="container">
+        <div class="card-fab" id="aciv">
+            <h1>Vacinação</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea perspiciatis consectetur ipsam aliquid culpa mollitia vitae? Animi placeat voluptas vitae. Illo ipsum nulla minima incidunt officiis quod! Quisquam, nobis reiciendis!</p>
+            <a href="" target="_blank">see more</a>
+        </div>
+    </div>
+
+CSS:
+
+#aciv{
+    background-image: url(2020-12-02t133257z-50699041-rc21fk9cktwy-rtrmadp-3-health-coronavirus-britain-vaccine.webp)
+  }
+
+.card-fab{
+    overflow:hidden;
+    outline: 1px solid grey;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    width: 375px;
+    height: 540px;
+    padding:25px 30px 35px 25px;
+    display:flex;
+    border-radius:15px;
+    justify-content: flex-end;
+    position:relative;
+    z-index:1;
+    cursor:pointer;
+    gap: 1rem;
+    position: relative;
+    transition: outline 500ms ease;
+    box-shadow: 0 0 10px 6px grey;
+  }
+  
+  .card-fab::before{
+    z-index:-1;
+    content : '';
+    position:absolute;
+    height:100%;
+    width: 100%;
+    background-image : linear-gradient(rgb(0,0,0,0), rgb(0,0,0,0), rgb(0,0,0,0), rgb(0,0,0, 0.7));
+    left:0;
+    bottom:0;
+    border-radius:15px;
+    transition: background-image 2s ease;
+  }
+  
+  .card-fab h1{
+    font-size:1.5rem;
+    transform: translate(0, );
+    transition: 500ms ease;
+    margin-left: 37%;
+    font-family: arial;
+  }
+  
+  .card-fab p{
+    font-family: arial;
+    color:white;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 500ms ease;
+  }
+  
+  .card-fab a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    display:flex;
+    width:  fit-content;
+    padding: 1% 3%;
+    border-radius: 15px;
+    
+    opacity: 0;
+    transform: translateY(100%);
+    transition: translate 500ms ease -500ms;
+    transition: outline 500ms ease;
+  }
+  
+  .card-fab a:hover{
+    outline: 1px solid white;
+  }
+  
+  .card-fab:hover{
+    outline: 1px solid white;
+  }
+  
+  .card-fab:hover::before{
+    background-image: linear-gradient( rgb(0,0,0,0), rgb(0,0,0,0.7));
+    outline: 2px solid white;
+  }
+  
+  .card-fab:hover h1{
+    position: relative;
+  }
+  
+  .card-fab:hover p{
+    transform: translateY(0);
+    opacity:1;
+  }
